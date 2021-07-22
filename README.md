@@ -1,5 +1,7 @@
 # Data Mapper for dotnet
 
+[![CI - Build & Test](https://github.com/buhlergroup/data-mapper-dotnet/actions/workflows/CI-build-test.yml/badge.svg)](https://github.com/buhlergroup/data-mapper-dotnet/actions/workflows/CI-build-test.yml)
+
 The **data-mapper-dotnet** allows developers to map one schema to another by defining a mapping file that can be changed by non-technical staff to meet future needs.
 
 ## Features
