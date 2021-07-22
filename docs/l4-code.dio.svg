@@ -1,0 +1,495 @@
+<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1365px" height="1021px" viewBox="-0.5 -0.5 1365 1021" content="&lt;mxfile&gt;&lt;diagram id=&quot;JoCEsR87Iy3Y2vPaaf2I&quot; name=&quot;Page-1&quot;&gt;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&lt;/diagram&gt;&lt;/mxfile&gt;">
+    <defs>
+        <clipPath id="mx-clip-589-745-272-26-0">
+            <rect x="589" y="745" width="272" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-744-871-242-26-0">
+            <rect x="744" y="871" width="242" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-454-871-242-26-0">
+            <rect x="454" y="871" width="242" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-589-625-272-26-0">
+            <rect x="589" y="625" width="272" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-589-651-272-26-0">
+            <rect x="589" y="651" width="272" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-861-413-284-26-0">
+            <rect x="861" y="413" width="284" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-861-439-284-26-0">
+            <rect x="861" y="439" width="284" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-861-465-284-26-0">
+            <rect x="861" y="465" width="284" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-861-491-284-26-0">
+            <rect x="861" y="491" width="284" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-861-517-284-26-0">
+            <rect x="861" y="517" width="284" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-861-543-284-26-0">
+            <rect x="861" y="543" width="284" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-882-293-242-26-0">
+            <rect x="882" y="293" width="242" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-882-319-242-26-0">
+            <rect x="882" y="319" width="242" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-574-388-242-26-0">
+            <rect x="574" y="388" width="242" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-574-414-242-26-0">
+            <rect x="574" y="414" width="242" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-574-440-242-26-0">
+            <rect x="574" y="440" width="242" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-574-466-242-26-0">
+            <rect x="574" y="466" width="242" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-959-638-272-26-0">
+            <rect x="959" y="638" width="272" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-248-427-284-26-0">
+            <rect x="248" y="427" width="284" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-254-293-272-26-0">
+            <rect x="254" y="293" width="272" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-191-242-26-0">
+            <rect x="4" y="191" width="242" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-268-191-242-26-0">
+            <rect x="268" y="191" width="242" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-529-191-242-26-0">
+            <rect x="529" y="191" width="242" height="26"/>
+        </clipPath>
+    </defs>
+    <g>
+        <rect x="652.5" y="970" width="145" height="50" fill="#ffffff" stroke="#000000" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 995px; margin-left: 725px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: nowrap; ">
+                                «interface»
+                                <br/>
+                                <b>
+                                    IFieldMappingOperation
+                                </b>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="725" y="999" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    «interface»...
+                </text>
+            </switch>
+        </g>
+        <path d="M 753.89 766 L 834.45 838.5" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 827.74 837.17 L 835.28 839.25 L 832.42 831.97" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 694.05 766 L 607.66 838.56" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 609.92 832.1 L 606.81 839.28 L 614.42 837.46" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 585 740 L 585 714 L 865 714 L 865 740" fill="#ffffff" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 585 740 L 585 766 L 865 766 L 865 740" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 585 740 L 865 740" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" font-weight="bold" pointer-events="none" text-anchor="middle" font-size="12px">
+            <text x="724.5" y="731.5">
+                FieldMappingOperationFactory
+            </text>
+        </g>
+        <g fill="#000000" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-589-745-272-26-0)" font-size="12px">
+            <text x="590.5" y="757.5">
+                + GetFieldOperation(): IFieldMappingOperation
+            </text>
+        </g>
+        <path d="M 836.78 892 L 758.1 964.5" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 752.95 969.24 L 755.73 961.93 L 760.47 967.07 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 740 866 L 740 840 L 990 840 L 990 866" fill="#ffffff" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 740 866 L 740 892 L 990 892 L 990 866" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 740 866 L 990 866" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" font-weight="bold" pointer-events="none" text-anchor="middle" font-size="12px">
+            <text x="864.5" y="857.5">
+                AndFieldMappingOperation
+            </text>
+        </g>
+        <g fill="#000000" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-744-871-242-26-0)" font-size="12px">
+            <text x="745.5" y="883.5">
+                + Execute(): String
+            </text>
+        </g>
+        <path d="M 605.23 892 L 689.78 964.71" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 695.08 969.27 L 687.49 967.36 L 692.06 962.05 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 450 866 L 450 840 L 700 840 L 700 866" fill="#ffffff" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 450 866 L 450 892 L 700 892 L 700 866" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 450 866 L 700 866" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" font-weight="bold" pointer-events="none" text-anchor="middle" font-size="12px">
+            <text x="574.5" y="857.5">
+                OrFieldMappingOperation
+            </text>
+        </g>
+        <g fill="#000000" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-454-871-242-26-0)" font-size="12px">
+            <text x="455.5" y="883.5">
+                + Execute(): String
+            </text>
+        </g>
+        <path d="M 585 633 L 507.12 633" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 500.12 633 L 507.12 629.5 L 507.12 636.5 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 725 672 L 725 711.76" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 721.5 705.88 L 725 712.88 L 728.5 705.88" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 792.76 594 L 855.06 558.14" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 851.71 564.11 L 856.03 557.59 L 848.22 558.04" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 865 633 L 952.76 633" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 946.88 636.5 L 953.88 633 L 946.88 629.5" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 663.08 594 L 433.17 449.19" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 440.01 449.36 L 432.23 448.6 L 436.28 455.29" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 585 620 L 585 594 L 865 594 L 865 620" fill="#dae8fc" stroke="#6c8ebf" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 585 620 L 585 672 L 865 672 L 865 620" fill="none" stroke="#6c8ebf" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 585 620 L 865 620" fill="none" stroke="#6c8ebf" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" font-weight="bold" pointer-events="none" text-anchor="middle" font-size="12px">
+            <text x="724.5" y="611.5">
+                FieldMapping
+            </text>
+        </g>
+        <g fill="#000000" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-589-625-272-26-0)" font-size="12px">
+            <text x="590.5" y="637.5">
+                + GetFieldValue(JObject, FieldMappingModel)
+            </text>
+        </g>
+        <g fill="#000000" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-589-651-272-26-0)" font-size="12px">
+            <text x="590.5" y="663.5">
+                + MapToDictonaryAsync(JObject, string)
+            </text>
+        </g>
+        <path d="M 857 448.82 L 822.21 443.06" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 828.58 440.57 L 821.1 442.88 L 827.44 447.48" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 1003 382 L 1003 342.24" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 1006.5 348.12 L 1003 341.12 L 999.5 348.12" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 1149 473 L 1251.76 473" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 1245.88 476.5 L 1252.88 473 L 1245.88 469.5" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 1149 435.78 L 1251.83 409.57" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 1247 414.42 L 1252.92 409.3 L 1245.27 407.63" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 1149 397.61 L 1258.6 341.03" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 1254.97 346.83 L 1259.59 340.51 L 1251.76 340.61" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 857 408 L 857 382 L 1149 382 L 1149 408" fill="#ffffff" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 857 408 L 857 564 L 1149 564 L 1149 408" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 857 408 L 1149 408" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" font-weight="bold" pointer-events="none" text-anchor="middle" font-size="12px">
+            <text x="1002.5" y="399.5">
+                FieldMappingModel
+            </text>
+        </g>
+        <g fill="#000000" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-861-413-284-26-0)" font-size="12px">
+            <text x="862.5" y="425.5">
+                + AzureDevopsField: string
+            </text>
+        </g>
+        <g fill="#000000" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-861-439-284-26-0)" font-size="12px">
+            <text x="862.5" y="451.5">
+                + BpmFields: string[]
+            </text>
+        </g>
+        <g fill="#000000" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-861-465-284-26-0)" font-size="12px">
+            <text x="862.5" y="477.5">
+                + Combination: FieldCombination
+            </text>
+        </g>
+        <g fill="#000000" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-861-491-284-26-0)" font-size="12px">
+            <text x="862.5" y="503.5">
+                + Type: FieldType
+            </text>
+        </g>
+        <g fill="#000000" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-861-517-284-26-0)" font-size="12px">
+            <text x="862.5" y="529.5">
+                + SelecgtedValues: List&lt;SelectFieldMappingModel&gt;
+            </text>
+        </g>
+        <g fill="#000000" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-861-543-284-26-0)" font-size="12px">
+            <text x="862.5" y="555.5">
+                + Disabled: bool
+            </text>
+        </g>
+        <path d="M 878 288 L 878 262 L 1128 262 L 1128 288" fill="#ffffff" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 878 288 L 878 340 L 1128 340 L 1128 288" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 878 288 L 1128 288" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" font-weight="bold" pointer-events="none" text-anchor="middle" font-size="12px">
+            <text x="1002.5" y="279.5">
+                SelectMappingModel
+            </text>
+        </g>
+        <g fill="#000000" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-882-293-242-26-0)" font-size="12px">
+            <text x="883.5" y="305.5">
+                + Origin: string
+            </text>
+        </g>
+        <g fill="#000000" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-882-319-242-26-0)" font-size="12px">
+            <text x="883.5" y="331.5">
+                + Destination: string
+            </text>
+        </g>
+        <path d="M 570 383 L 570 357 L 820 357 L 820 383" fill="#ffffff" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 570 383 L 570 487 L 820 487 L 820 383" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 570 383 L 820 383" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" font-weight="bold" pointer-events="none" text-anchor="middle" font-size="12px">
+            <text x="694.5" y="374.5">
+                ConditionModel
+            </text>
+        </g>
+        <g fill="#000000" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-574-388-242-26-0)" font-size="12px">
+            <text x="575.5" y="400.5">
+                + type: ConditionType
+            </text>
+        </g>
+        <g fill="#000000" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-574-414-242-26-0)" font-size="12px">
+            <text x="575.5" y="426.5">
+                + field: string
+            </text>
+        </g>
+        <g fill="#000000" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-574-440-242-26-0)" font-size="12px">
+            <text x="575.5" y="452.5">
+                + equals:?string
+            </text>
+        </g>
+        <g fill="#000000" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-574-466-242-26-0)" font-size="12px">
+            <text x="575.5" y="478.5">
+                + value: string
+            </text>
+        </g>
+        <rect x="1254" y="290" width="110" height="50" fill="#ffffff" stroke="#000000" pointer-events="none"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 315px; margin-left: 1309px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: none; white-space: nowrap; ">
+                                «enum»
+                                <br/>
+                                <b>
+                                    FieldType
+                                </b>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="1309" y="319" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    «enum»...
+                </text>
+            </switch>
+        </g>
+        <rect x="1254" y="370" width="110" height="50" fill="#ffffff" stroke="#000000" pointer-events="none"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 395px; margin-left: 1309px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: none; white-space: nowrap; ">
+                                «enum»
+                                <br/>
+                                <b>
+                                    FieldCombination
+                                </b>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="1309" y="399" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    «enum»...
+                </text>
+            </switch>
+        </g>
+        <rect x="1254" y="448" width="110" height="50" fill="#ffffff" stroke="#000000" pointer-events="none"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 473px; margin-left: 1309px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: none; white-space: nowrap; ">
+                                «enum»
+                                <br/>
+                                <b>
+                                    ConditionType
+                                </b>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="1309" y="477" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    «enum»...
+                </text>
+            </switch>
+        </g>
+        <path d="M 1095 659 L 1095 705.88" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 1095 712.88 L 1091.5 705.88 L 1098.5 705.88 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 955 633 L 955 607 L 1235 607 L 1235 633" fill="#ffffff" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 955 633 L 955 659 L 1235 659 L 1235 633" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 955 633 L 1235 633" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" font-weight="bold" pointer-events="none" text-anchor="middle" font-size="12px">
+            <text x="1094.5" y="624.5">
+                FieldValidationRunner
+            </text>
+        </g>
+        <g fill="#000000" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-959-638-272-26-0)" font-size="12px">
+            <text x="960.5" y="650.5">
+                + ValidateField(FieldMappingMode, Object): bool
+            </text>
+        </g>
+        <rect x="1022.5" y="714" width="145" height="50" fill="#ffffff" stroke="#000000" pointer-events="none"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 739px; margin-left: 1095px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: none; white-space: nowrap; ">
+                                «interface»
+                                <br/>
+                                <b>
+                                    IFieldValidationRunner
+                                </b>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="1095" y="743" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    «interface»...
+                </text>
+            </switch>
+        </g>
+        <rect x="354" y="608" width="145" height="50" fill="#ffffff" stroke="#000000" pointer-events="none"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 633px; margin-left: 427px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: none; white-space: nowrap; ">
+                                «interface»
+                                <br/>
+                                <b>
+                                    IFieldMapping
+                                </b>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="427" y="637" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    «interface»...
+                </text>
+            </switch>
+        </g>
+        <path d="M 536 422 L 567.76 422" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 561.88 425.5 L 568.88 422 L 561.88 418.5" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 390 396 L 390 316.24" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 393.5 322.12 L 390 315.12 L 386.5 322.12" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 244 422 L 244 396 L 536 396 L 536 422" fill="#ffffff" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 244 422 L 244 448 L 536 448 L 536 422" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 244 422 L 536 422" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" font-weight="bold" pointer-events="none" text-anchor="middle" font-size="12px">
+            <text x="389.5" y="413.5">
+                ConditionCheck
+            </text>
+        </g>
+        <g fill="#000000" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-248-427-284-26-0)" font-size="12px">
+            <text x="249.5" y="439.5">
+                + ApplyFirstMatchingCondition(): String
+            </text>
+        </g>
+        <path d="M 322.45 262 L 194.64 212.8" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 201.38 211.65 L 193.59 212.4 L 198.87 218.18" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 389.75 262 L 389.28 214.24" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 392.83 220.08 L 389.27 213.12 L 385.83 220.15" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 456.27 262 L 581.64 212.82" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 577.45 218.22 L 582.68 212.41 L 574.89 211.71" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 250 288 L 250 262 L 530 262 L 530 288" fill="#ffffff" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 250 288 L 250 314 L 530 314 L 530 288" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 250 288 L 530 288" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" font-weight="bold" pointer-events="none" text-anchor="middle" font-size="12px">
+            <text x="389.5" y="279.5">
+                ConditionHandlerFactory
+            </text>
+        </g>
+        <g fill="#000000" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-254-293-272-26-0)" font-size="12px">
+            <text x="255.5" y="305.5">
+                + GetConditionHandler(ConditionType): ICondition
+            </text>
+        </g>
+        <rect x="316.5" y="0" width="145" height="50" fill="#ffffff" stroke="#000000" pointer-events="none"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 25px; margin-left: 389px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: none; white-space: nowrap; ">
+                                «interface»
+                                <br/>
+                                <b>
+                                    ICondition
+                                </b>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="389" y="29" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    «interface»...
+                </text>
+            </switch>
+        </g>
+        <path d="M 167.63 160 L 341.08 54.23" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 347.05 50.58 L 342.9 57.21 L 339.25 51.24 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 0 186 L 0 160 L 250 160 L 250 186" fill="#ffffff" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 0 186 L 0 212 L 250 212 L 250 186" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 0 186 L 250 186" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" font-weight="bold" pointer-events="none" text-anchor="middle" font-size="12px">
+            <text x="124.5" y="177.5">
+                ValueEqualsCondition
+            </text>
+        </g>
+        <g fill="#000000" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-191-242-26-0)" font-size="12px">
+            <text x="5.5" y="203.5">
+                + Apply(ConditionModle, JObject): String
+            </text>
+        </g>
+        <path d="M 389 160 L 389 58.12" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 389 51.12 L 392.5 58.12 L 385.5 58.12 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 264 186 L 264 160 L 514 160 L 514 186" fill="#ffffff" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 264 186 L 264 212 L 514 212 L 514 186" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 264 186 L 514 186" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" font-weight="bold" pointer-events="none" text-anchor="middle" font-size="12px">
+            <text x="388.5" y="177.5">
+                ValueExistsCondition
+            </text>
+        </g>
+        <g fill="#000000" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-268-191-242-26-0)" font-size="12px">
+            <text x="269.5" y="203.5">
+                + Apply(ConditionModle, JObject): String
+            </text>
+        </g>
+        <path d="M 607.85 160 L 436.44 54.26" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 430.48 50.59 L 438.27 51.28 L 434.6 57.24 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 525 186 L 525 160 L 775 160 L 775 186" fill="#ffffff" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 525 186 L 525 212 L 775 212 L 775 186" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 525 186 L 775 186" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" font-weight="bold" pointer-events="none" text-anchor="middle" font-size="12px">
+            <text x="649.5" y="177.5">
+                DefaultCondition
+            </text>
+        </g>
+        <g fill="#000000" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-529-191-242-26-0)" font-size="12px">
+            <text x="530.5" y="203.5">
+                + Apply(ConditionModle, JObject): String
+            </text>
+        </g>
+    </g>
+    <switch>
+        <g requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"/>
+        <a transform="translate(0,-5)" xlink:href="https://www.diagrams.net/doc/faq/svg-export-text-problems" target="_blank">
+            <text text-anchor="middle" font-size="10px" x="50%" y="100%">
+                Viewer does not support full SVG 1.1
+            </text>
+        </a>
+    </switch>
+</svg>

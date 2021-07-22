@@ -1,0 +1,145 @@
+<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="541px" height="351px" viewBox="-0.5 -0.5 541 351" content="&lt;mxfile&gt;&lt;diagram id=&quot;Cy92bdAY38NJWBDKZe3e&quot; name=&quot;Page-1&quot;&gt;7Zlbc5s6EMc/DY/NYDDGeYxN0k6nF89xZtrzKMMalAKiQr71058VCBAgpz3pJZ2JnThB/5UWsVr9vBpb7jI7vuakSN6zCFLLsaOj5QaW40xmno//pHJSymSmlJjTSGmdsKbfQIm2Unc0grLXUTCWClr0xZDlOYSipxHO2aHfbcvS/l0LEsNIWIckHaufaCSSWp07fqe/ARonon2+69qSkaazepIyIRE7aJJ7a7lLzpior7LjElIZvSYu9bi7M9Z2YhxyYRjANg8yHtgjJSEk+NzAByGbfiCZesxPsEFlDXxPQ2jM96dCmZcsF4TmwFsThEnOUhardb35tuM4zr7b5aGgLG/6BVCGnBaVVHVccbavVhSXB3vZkEcFo7mo1lX+SaSbku14WF2cSgFZYyyxt0wmIkgjkUoRnOTllvFM+qXS2a6kedz6E4THIOUyTCAj9exSssFsrWZlObMUg7jAIMxieWE5ngqP4zVGDK1mr7WI7lvJq0dVUcNR7o0lV8TrBQt1L9Ac6uObOfDHbiL96UHtTa/X0dGTxWkTrk2kUpyaJOdsl0cg+05w6CGhAtYFZg0KB9zXqCUiS5W5CtuChF/iatgSH4yjKWc59l9saZo2kuW4U3ceBJ7UMYM0fVu9UCcpjWVqhJjFmF4o8FBRABHgLkrB2RfQRrpL/24pLRkIchtRoaYlm4FMDOzly9B93cmdtWgWpGnLddHtgC7IJu332JK0BMsP5K+7qBK02jueXGX7SgYd5yDfcjWXlWjS/LE4ka3GQ180ab5ncjkx3HuoOQbR6NJwb3swSS9oU0oHjgLJHriAoyapRHsNDFeFY9bbynqtWKio4diqfejQ2vIy0bHaiEQhLG5dd8TDC5XcTVMx8Ak8DGrEvCdFoUFP42FWYL5LbJl5GDGRgzhLQfRbtnDq4QzfORxeMKmmz0SqubdY3Nm/klT+/GYezC+kei5SjbBkgNdZUrXEURt6Oh2jajIzoWpiX9n6a/InyNWh6R9IidxvZUKLc3RaCw4kO0unNZZZEk8cQqB7GJZcNbUyDY0GPlUbXNu5TcriiohXaitJ7KSwFVpCm3jyA17UnjzrZ/NjVBpB08y9n55Vw9//RdtHqTl7lJoQ4ZlGNRX9OpDafWg+gBAnxTWywwV3F4yLhMUsJ+k7xgrVb4w7W/60lua05IyR2vZ82GXFYF4RKZOW738OnHU4ZZwe50V7NNHK6vZ4Mf4A07hi4gav9uq+f08TKJS7lTopKUZ5Xp9R7rBKqueqRulnyYEjf/IdR/UDjhxV3Gqf8ZcXYTcRKcSTyq+3648f8NZv7u9X6+9iTuOZGXXd6VGdRl9aTTa/1GSXmuz5a7Kp/3JrshUpSzhLq0sR9jcUYdeXIuynSIkrxU+fVTSqxr+yceU1zeCoG4OT3loBpzg3+SlQi0cqPqs5y2vNFbY6T7Jx0hpDP0+sDKeGynBupttvqAydYUHnPrEyHDqaer+pMsRm91VIPbr7Rsm9/Q8=&lt;/diagram&gt;&lt;/mxfile&gt;">
+    <defs/>
+    <g>
+        <rect x="0" y="0" width="220" height="120" rx="12" ry="12" fill="#438dd5" stroke="#3c7fc0" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 218px; height: 1px; padding-top: 60px; margin-left: 1px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #ffffff; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                <b>
+                                    Web Service
+                                </b>
+                                <div>
+                                    [Container: Azure Function]
+                                </div>
+                                <br/>
+                                <div>
+                                    Provides an endpoint to the source system to send data to and transforms it using the target schema
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="110" y="64" fill="#ffffff" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    Web Service...
+                </text>
+            </switch>
+        </g>
+        <rect x="30" y="240" width="160" height="110" rx="11" ry="11" fill="#85bbf0" stroke="#78a8d8" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 158px; height: 1px; padding-top: 295px; margin-left: 31px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #ffffff; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                <b>
+                                    Data Mapper
+                                </b>
+                                <div>
+                                    [Component: dotnet]
+                                </div>
+                                <br/>
+                                <div>
+                                    Maps the data to a new schema
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="110" y="299" fill="#ffffff" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    Data Mapper...
+                </text>
+            </switch>
+        </g>
+        <path d="M 110 120 L 110 231.76" fill="none" stroke="#707070" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="6 6" pointer-events="stroke"/>
+        <path d="M 110 237.76 L 106 229.76 L 110 231.76 L 114 229.76 Z" fill="#707070" stroke="#707070" stroke-width="2" stroke-miterlimit="10" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 180px; margin-left: 110px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: #707070; line-height: 1.2; pointer-events: all; background-color: #ffffff; white-space: nowrap; ">
+                                <div style="text-align: left">
+                                    <div style="text-align: center">
+                                        <b>
+                                            Sends received data to the mapper
+                                        </b>
+                                    </div>
+                                    <div style="text-align: center">
+                                        [Stream]
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="110" y="183" fill="#707070" font-family="Helvetica" font-size="11px" text-anchor="middle">
+                    Sends received data to the map...
+                </text>
+            </switch>
+        </g>
+        <rect x="380" y="240" width="160" height="110" rx="11" ry="11" fill="#85bbf0" stroke="#78a8d8" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 158px; height: 1px; padding-top: 295px; margin-left: 381px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #ffffff; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                <b>
+                                    Adapter
+                                </b>
+                                <div>
+                                    [Component: JSON/HTTPS]
+                                </div>
+                                <br/>
+                                <div>
+                                    Sends the mapped data to the target system
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="460" y="299" fill="#ffffff" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    Adapter...
+                </text>
+            </switch>
+        </g>
+        <path d="M 190 295 L 371.76 295" fill="none" stroke="#707070" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="6 6" pointer-events="stroke"/>
+        <path d="M 377.76 295 L 369.76 299 L 371.76 295 L 369.76 291 Z" fill="#707070" stroke="#707070" stroke-width="2" stroke-miterlimit="10" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 295px; margin-left: 285px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: #707070; line-height: 1.2; pointer-events: all; background-color: #ffffff; white-space: nowrap; ">
+                                <div style="text-align: left">
+                                    <div style="text-align: center">
+                                        <b>
+                                            Passes the mapped data
+                                        </b>
+                                    </div>
+                                    <div style="text-align: center">
+                                        [Stream]
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="285" y="298" fill="#707070" font-family="Helvetica" font-size="11px" text-anchor="middle">
+                    Passes the mapped data...
+                </text>
+            </switch>
+        </g>
+    </g>
+    <switch>
+        <g requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"/>
+        <a transform="translate(0,-5)" xlink:href="https://www.diagrams.net/doc/faq/svg-export-text-problems" target="_blank">
+            <text text-anchor="middle" font-size="10px" x="50%" y="100%">
+                Viewer does not support full SVG 1.1
+            </text>
+        </a>
+    </switch>
+</svg>
