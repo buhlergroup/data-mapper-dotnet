@@ -29,6 +29,8 @@ There are two parts to the library to use it. One is the technical implementatio
 
 ### Mapping
 
+Here's a sample of how the mapping could look like:
+
 ```JSON
 [
   {
@@ -41,17 +43,17 @@ There are two parts to the library to use it. One is the technical implementatio
   {
     "target-field": "Title",
     "source-fields": [
-      "bpmnr",
+      "nr",
       "clientZwTxt"
     ],
-    "field-combination": "AND" // Concatenates the source fields with a ", " in between.
+    "field-combination": "AND"
   },
   {
     "target-field": "Description",
     "source-fields": [
       "post1Ff"
     ],
-    "disabled": true // Mappings that aren't used at the moment can be disabled
+    "disabled": true
   },
   {
     "target-field": "AssignedTo",
@@ -59,7 +61,7 @@ There are two parts to the library to use it. One is the technical implementatio
       "paraeEmail",
       "parprEmail"
     ],
-    "field-combination": "OR" // Takes the first field that isn't empty.
+    "field-combination": "OR"
   },
   {
     "target-field": "Tags",
@@ -92,8 +94,8 @@ There are two parts to the library to use it. One is the technical implementatio
     ]
   },
   {
-    "azure-devops-field": "Project Execution Status",
-    "bpm-fields": [
+    "target-field": "Project Execution Status",
+    "source-fields": [
       "status"
     ],
     "type": "SELECT",
@@ -135,8 +137,9 @@ A field mapping can define a specific type that the field should have in the tar
 The following types are supported as of now:
 
 - `NUMBER` - Any value that can be parsed into a float
-- `Date`
-- `Text`
+- `DATE`
+- `TEXT`
+- `SELECT` - Maps a specific value to another one
 
 #### Conditions
 
