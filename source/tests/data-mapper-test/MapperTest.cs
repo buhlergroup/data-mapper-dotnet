@@ -1,8 +1,10 @@
 namespace Buhler.DataMapper
 {
+    using System;
     using System.Collections.Generic;
     using System.Linq;
     using System.Threading.Tasks;
+    using Buhler.DataMapper.Condition;
     using Buhler.DataMapper.Helper;
     using Buhler.DataMapper.Model;
     using Buhler.DataMapper.Validation;
@@ -82,6 +84,206 @@ namespace Buhler.DataMapper
 
             result.Should().HaveCount(1);
             result["ID"].Should().Be("413143");
+        }
+
+        [TestMethod]
+        public void GetFieldValue_EmptyModel()
+        {
+            var map = new FieldMappingModel();
+            var mapper = new Mapper(_mockStreamHelper.Object, _mockFieldValidation.Object);
+            Action act = () => mapper.GetFieldValue(null, map);
+
+            act.Should().Throw<ArgumentNullException>();
+        }
+
+        [TestMethod]
+        public void GetFieldValue_EmptyMap()
+        {
+            var jsonObject = new JObject
+            {
+                { "nr", "413143" }
+            };
+            var mapper = new Mapper(_mockStreamHelper.Object, _mockFieldValidation.Object);
+            Action act = () => mapper.GetFieldValue(jsonObject, null);
+
+            act.Should().Throw<ArgumentNullException>();
+        }
+
+        [TestMethod]
+        public void GetFieldValue_DisabledField()
+        {
+            var jsonObject = new JObject
+            {
+                { "nr", "413143" }
+            };
+            var map = new FieldMappingModel
+            {
+                SourceFields = new List<string> { "nr" },
+                TargetField = "ID",
+                Disabled = true
+            };
+
+            var mapper = new Mapper(_mockStreamHelper.Object, _mockFieldValidation.Object);
+            var result = mapper.GetFieldValue(jsonObject, map);
+
+            result.Should().BeNull();
+        }
+
+        [TestMethod]
+        public void GetFieldValue_TrueCondition()
+        {
+            var jsonObject = new JObject
+            {
+                { "nr", "413143" }
+            };
+            var map = new FieldMappingModel
+            {
+                SourceFields = new List<string> { "nr" },
+                TargetField = "ID",
+                Conditions = new List<FieldConditionModel>{
+                    new FieldConditionModel {
+                        Type = ConditionType.VALUE_EQUALS,
+                        Field = "nr",
+                        Value = "This Project",
+                        EqualsValue = "413143"
+                    }
+                }
+            };
+
+            var mapper = new Mapper(_mockStreamHelper.Object, _mockFieldValidation.Object);
+            var result = mapper.GetFieldValue(jsonObject, map);
+
+            result.Should().NotBeNull();
+            result.Should().Be("This Project");
+        }
+
+        [TestMethod]
+        public void GetFieldValue_FieldCombination()
+        {
+            var jsonObject = new JObject
+            {
+                { "nr", "413143" },
+                { "txt", "hello" }
+            };
+            var map = new FieldMappingModel
+            {
+                SourceFields = new List<string> { "nr", "txt" },
+                TargetField = "Title",
+                Combination = FieldCombination.AND
+            };
+
+            var mapper = new Mapper(_mockStreamHelper.Object, new FieldValidation());
+            var result = mapper.GetFieldValue(jsonObject, map);
+
+            result.Should().NotBeNull();
+            result.Should().Be("413143, hello");
+        }
+
+        [TestMethod]
+        public void GetFieldValue_NoSourceField()
+        {
+            var jsonObject = new JObject
+            {
+                { "nr", "413143" }
+            };
+            var map = new FieldMappingModel
+            {
+                SourceFields = new List<string> { },
+                TargetField = "ID"
+            };
+
+            var mapper = new Mapper(_mockStreamHelper.Object, new FieldValidation());
+            var result = mapper.GetFieldValue(jsonObject, map);
+
+            result.Should().BeNull();
+        }
+
+        [TestMethod]
+        public void GetFieldValue_InvalidField()
+        {
+            _mockFieldValidation.Setup(x => x.ValidateField(It.IsAny<FieldMappingModel>(), It.IsAny<object>())).Returns(false);
+            var jsonObject = new JObject
+            {
+                { "nr", "413143" }
+            };
+            var map = new FieldMappingModel
+            {
+                SourceFields = new List<string> { "nr" },
+                TargetField = "ID"
+            };
+
+            var mapper = new Mapper(_mockStreamHelper.Object, _mockFieldValidation.Object);
+            var result = mapper.GetFieldValue(jsonObject, map);
+
+            result.Should().BeNull();
+        }
+
+        [TestMethod]
+        public void GetFieldValue_TypeSelect()
+        {
+            var jsonObject = new JObject
+            {
+                { "st", "DO" }
+            };
+            var map = new FieldMappingModel
+            {
+                SourceFields = new List<string> { "st" },
+                TargetField = "Status",
+                Type = FieldType.SELECT,
+                SelectValues = new List<SelectFieldMappingModel> {
+                    new SelectFieldMappingModel {
+                        Origin = "DO",
+                        Destination = "DO - Done"
+                    }
+                }
+            };
+
+            var mapper = new Mapper(_mockStreamHelper.Object, new FieldValidation());
+            var result = mapper.GetFieldValue(jsonObject, map);
+
+            result.Should().NotBeNull();
+            result.Should().Be("DO - Done");
+        }
+
+        [TestMethod]
+        public void GetFieldValue_TypeNumber()
+        {
+            var jsonObject = new JObject
+            {
+                { "nr", "00413143" }
+            };
+            var map = new FieldMappingModel
+            {
+                SourceFields = new List<string> { "nr" },
+                TargetField = "ID",
+                Type = FieldType.NUMBER
+            };
+
+            var mapper = new Mapper(_mockStreamHelper.Object, new FieldValidation());
+            var result = mapper.GetFieldValue(jsonObject, map);
+
+            result.Should().NotBeNull();
+            result.Should().Be(413143);
+        }
+
+        [TestMethod]
+        public void GetFieldValue_TypeDefault()
+        {
+            var jsonObject = new JObject
+            {
+                { "nr", "00413143" }
+            };
+            var map = new FieldMappingModel
+            {
+                SourceFields = new List<string> { "nr" },
+                TargetField = "ID"
+            };
+
+            var mapper = new Mapper(_mockStreamHelper.Object, new FieldValidation());
+            var result = mapper.GetFieldValue(jsonObject, map);
+
+            result.Should().NotBeNull();
+            result.Should().Be("00413143");
         }
     }
 }
