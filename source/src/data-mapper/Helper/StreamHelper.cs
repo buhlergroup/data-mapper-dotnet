@@ -7,7 +7,7 @@ namespace Buhler.DataMapper.Helper
 
     public class StreamHelper : IStreamHelper
     {
-        private IFileSystem _fileSystem;
+        private readonly IFileSystem _fileSystem;
 
         public StreamHelper(IFileSystem fileSystem)
         {
