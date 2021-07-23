@@ -2,9 +2,9 @@
 {
     using Buhler.DataMapper.Model;
 
-    public static class FieldMappingOperationFactory
+    public static class OperationFactory
     {
-        public static IFieldOperation GetFieldOperation(FieldCombination combination)
+        public static IOperation GetFieldOperation(FieldCombination combination)
         {
             return combination switch
             {

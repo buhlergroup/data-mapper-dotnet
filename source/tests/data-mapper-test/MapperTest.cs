@@ -1,17 +1,15 @@
-namespace Buhler.DataMapper
+namespace Buhler.DataMapper.Test
 {
     using System;
     using System.Collections.Generic;
     using System.Linq;
     using System.Threading.Tasks;
-    using Buhler.DataMapper.Condition;
     using Buhler.DataMapper.Helper;
     using Buhler.DataMapper.Model;
     using Buhler.DataMapper.Validation;
     using FluentAssertions;
     using Microsoft.VisualStudio.TestTools.UnitTesting;
     using Moq;
-    using Newtonsoft.Json;
     using Newtonsoft.Json.Linq;
 
     [TestClass]

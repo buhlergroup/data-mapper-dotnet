@@ -282,3 +282,4 @@ launchSettings.json
 build/Directory.Build.props
 
 .DS_Store
+CoverageResults

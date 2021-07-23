@@ -5,7 +5,7 @@
     using Buhler.DataMapper.Validation;
     using Newtonsoft.Json.Linq;
 
-    internal class OrOperation : IFieldOperation
+    public class OrOperation : IOperation
     {
         public string Execute(JObject model, FieldMappingModel map, IFieldValidation validationHelper)
         {

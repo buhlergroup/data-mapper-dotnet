@@ -49,7 +49,7 @@
 
             if (map.Combination != FieldCombination.UNKNOWN)
             {
-                var fieldOperation = FieldMappingOperationFactory.GetFieldOperation(map.Combination);
+                var fieldOperation = OperationFactory.GetFieldOperation(map.Combination);
                 return fieldOperation.Execute(model, map, _validationHelper);
             }
 

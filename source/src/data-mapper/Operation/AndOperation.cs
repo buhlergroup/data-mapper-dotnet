@@ -6,7 +6,7 @@
     using Buhler.DataMapper.Validation;
     using Newtonsoft.Json.Linq;
 
-    public class AndOperation : IFieldOperation
+    public class AndOperation : IOperation
     {
         public string Execute(JObject model, FieldMappingModel map, IFieldValidation validationHelper)
         {
