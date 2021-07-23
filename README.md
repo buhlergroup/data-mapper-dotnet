@@ -1,7 +1,9 @@
 # Data Mapper for dotnet
 
 [![CI - Build & Test](https://github.com/buhlergroup/data-mapper-dotnet/actions/workflows/CI-build-test.yml/badge.svg)](https://github.com/buhlergroup/data-mapper-dotnet/actions/workflows/CI-build-test.yml)
-[![CI - Code Analysis](https://github.com/buhlergroup/data-mapper-dotnet/actions/workflows/CI-codeql-analysis.yml/badge.svg)](https://github.com/buhlergroup/data-mapper-dotnet/actions/workflows/CI-codeql-analysis.yml)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=buhlergroup_data-mapper-dotnet&metric=alert_status)](https://sonarcloud.io/dashboard?id=buhlergroup_data-mapper-dotnet)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=buhlergroup_data-mapper-dotnet&metric=coverage)](https://sonarcloud.io/dashboard?id=buhlergroup_data-mapper-dotnet)
+
 
 The **data-mapper-dotnet** allows developers to map one schema to another by defining a mapping file that can be changed by non-technical staff to meet future needs.
 
