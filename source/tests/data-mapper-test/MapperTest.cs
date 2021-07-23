@@ -178,7 +178,7 @@ namespace Buhler.DataMapper.Test
         }
 
         [TestMethod]
-        public void GetFieldValue_NoSourceField()
+        public void GetFieldValue_EmptySourceField()
         {
             var jsonObject = new JObject
             {
@@ -187,6 +187,24 @@ namespace Buhler.DataMapper.Test
             var map = new FieldMappingModel
             {
                 SourceFields = new List<string> { },
+                TargetField = "ID"
+            };
+
+            var mapper = new Mapper(_mockStreamHelper.Object, new FieldValidation());
+            var result = mapper.GetFieldValue(jsonObject, map);
+
+            result.Should().BeNull();
+        }
+
+        [TestMethod]
+        public void GetFieldValue_NoSourceField()
+        {
+            var jsonObject = new JObject
+            {
+                { "nr", "413143" }
+            };
+            var map = new FieldMappingModel
+            {
                 TargetField = "ID"
             };
 
