@@ -28,6 +28,6 @@
         /// </summary>
         /// <param name="mappingDirectory">Where the field mapping file is stored</param>
         /// <returns>The field mappings</returns>
-        Task<IEnumerable<FieldMappingModel>> GetFieldMappingsAsync(string mappingDirectory);
+        IEnumerable<FieldMappingModel> GetFileMapping(string mappingDirectory);
     }
 }

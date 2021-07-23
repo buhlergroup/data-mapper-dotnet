@@ -3,7 +3,6 @@ namespace Buhler.DataMapper.Test
     using System;
     using System.Collections.Generic;
     using System.Linq;
-    using System.Threading.Tasks;
     using Buhler.DataMapper.Helper;
     using Buhler.DataMapper.Model;
     using Buhler.DataMapper.Validation;
@@ -21,7 +20,7 @@ namespace Buhler.DataMapper.Test
         [TestInitialize]
         public void Initialize()
         {
-            _mockStreamHelper.Setup(x => x.FileToStringAsync(It.IsAny<string>())).ReturnsAsync(@"
+            _mockStreamHelper.Setup(x => x.ReadFileToString(It.IsAny<string>())).Returns(@"
             [
                 {
                     ""target-field"": ""ID"",
@@ -34,10 +33,10 @@ namespace Buhler.DataMapper.Test
         }
 
         [TestMethod]
-        public async Task GetFieldMapping_WithoutDirectory_Async()
+        public void GetFieldMapping_WithoutDirectory_Async()
         {
             var mapper = new Mapper(_mockStreamHelper.Object, _mockFieldValidation.Object);
-            var mapping = await mapper.GetFieldMappingsAsync(null);
+            var mapping = mapper.GetFileMapping(null);
 
             mapping.Should().HaveCount(1);
             mapping.First().TargetField.Should().Be("ID");
@@ -46,10 +45,10 @@ namespace Buhler.DataMapper.Test
         }
 
         [TestMethod]
-        public async Task GetFieldMapping_WithDirectory_Async()
+        public void GetFieldMapping_WithDirectory_Async()
         {
             var mapper = new Mapper(_mockStreamHelper.Object, _mockFieldValidation.Object);
-            var mapping = await mapper.GetFieldMappingsAsync("TestDirectory");
+            var mapping = mapper.GetFileMapping("TestDirectory");
 
             mapping.Should().HaveCount(1);
             mapping.First().TargetField.Should().Be("ID");

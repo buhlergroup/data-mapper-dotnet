@@ -17,6 +17,6 @@ namespace Buhler.DataMapper.Helper
         /// </summary>
         /// <param name="filename">to read from</param>
         /// <returns>Content of the file</returns>
-        Task<string> FileToStringAsync(string filename);
+        string ReadFileToString(string filename);
     }
 }

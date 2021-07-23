@@ -2,10 +2,18 @@ namespace Buhler.DataMapper.Helper
 {
     using System;
     using System.IO;
+    using System.IO.Abstractions;
     using System.Threading.Tasks;
 
     public class StreamHelper : IStreamHelper
     {
+        public IFileSystem _fileSystem;
+
+        public StreamHelper(IFileSystem fileSystem)
+        {
+            _fileSystem = fileSystem;
+        }
+
         public async Task<string> ToStringAsync(Stream stream)
         {
             RequireArgument(stream);
@@ -13,11 +21,10 @@ namespace Buhler.DataMapper.Helper
             return await reader.ReadToEndAsync().ConfigureAwait(false);
         }
 
-        public async Task<string> FileToStringAsync(string filename)
+        public string ReadFileToString(string filename)
         {
             RequireArgument(filename);
-            using var reader = new StreamReader(filename);
-            return await reader.ReadToEndAsync().ConfigureAwait(false);
+            return _fileSystem.File.ReadAllText(filename);
         }
 
         private static void RequireArgument(object stream)

@@ -87,14 +87,14 @@
             return dict;
         }
 
-        public async Task<IEnumerable<FieldMappingModel>> GetFieldMappingsAsync(string mappingDirectory)
+        public IEnumerable<FieldMappingModel> GetFileMapping(string mappingDirectory)
         {
             if (String.IsNullOrEmpty(mappingDirectory))
             {
                 mappingDirectory = Directory.GetCurrentDirectory();
             }
 
-            var mappingFileContent = await _streamHelper.FileToStringAsync(Path.Join(mappingDirectory, MappingFileName)).ConfigureAwait(false);
+            var mappingFileContent = _streamHelper.ReadFileToString(Path.Join(mappingDirectory, MappingFileName));
             return JsonConvert.DeserializeObject<List<FieldMappingModel>>(mappingFileContent);
         }
     }
