@@ -1,0 +1,24 @@
+name: CD - Publish NuGet Package
+
+on:
+  workflow_dispatch
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: 5.0.x
+          
+      - name: Publish Package
+        uses: rohith/publish-nuget@v2
+        with:
+          PROJECT_FILE_PATH: source/src/data-mapper/data-mapper.csproj
+      
+          TAG_COMMIT: true
+          TAG_FORMAT: v*
+          NUGET_KEY: ${{secrets.NUGET_API_KEY}}
