@@ -6,7 +6,7 @@
     <Version>0.1.1</Version>
     <Authors>Felix Saaro</Authors>
     <Company>Buhler</Company>
-    <Descritpion>A library that helps developers map data from one schema to another.</Descritpion>
+    <Description>A library that helps developers map data from one schema to another.</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageTags>data,mapping,transform,schema</PackageTags>
     <RepositoryUrl>https://github.com/buhlergroup/data-mapper-dotnet</RepositoryUrl>
