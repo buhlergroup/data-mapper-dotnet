@@ -7,4 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-- Added documentation
+## [v0.2.0]
+
+- Add mapping data according to `field-mapping.json` definition
+- Add support for conditional fields
+- Add support for field operations (AND, OR)
+- Add support for field validation
+
+## [v0.1.0]
+
+- Add documentation
+- Publish to NuGet

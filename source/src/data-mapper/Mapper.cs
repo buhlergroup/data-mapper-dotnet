@@ -4,7 +4,6 @@
     using System.Collections.Generic;
     using System.IO;
     using System.Linq;
-    using System.Threading.Tasks;
     using Buhler.DataMapper.Condition;
     using Buhler.DataMapper.Helper;
     using Buhler.DataMapper.Model;
