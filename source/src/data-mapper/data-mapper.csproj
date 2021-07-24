@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
     <PackageId>Buhler.DataMapper</PackageId>
-    <Version>0.1.0</Version>
+    <Version>0.1.1</Version>
     <Authors>Felix Saaro</Authors>
     <Company>Buhler</Company>
     <Descritpion>A library that helps developers map data from one schema to another.</Descritpion>
