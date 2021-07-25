@@ -1,7 +1,9 @@
 name: CD - Publish NuGet Package
 
 on:
-  workflow_dispatch
+  create:
+    tags:
+      - v*
 
 jobs:
   build:
