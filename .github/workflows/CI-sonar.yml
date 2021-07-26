@@ -47,7 +47,7 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         shell: pwsh
         run: |
-          ./.sonar/scanner/dotnet-sonarscanner begin /k:"buhlergroup_data-mapper-dotnet" /o:"buhlergroup" /d:sonar.login="${{ secrets.SONAR_TOKEN }}" /d:sonar.host.url="https://sonarcloud.io" /d:sonar.cs.opencover.reportsPaths="**/CoverageResults/coverage.opencover.xml" /d:sonar.coverage.exclusions="**/ServiceCollectionExtensions.cs"
+          ./.sonar/scanner/dotnet-sonarscanner begin /k:"buhlergroup_data-mapper-dotnet" /o:"buhlergroup" /d:sonar.login="${{ secrets.SONAR_TOKEN }}" /d:sonar.host.url="https://sonarcloud.io" /v:0.1.* /d:sonar.cs.opencover.reportsPaths="**/CoverageResults/coverage.opencover.xml" /d:sonar.coverage.exclusions="**/ServiceCollectionExtensions.cs"
       
       - name: Restore dependencies
         run: dotnet restore
