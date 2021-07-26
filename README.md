@@ -6,11 +6,13 @@
 
 The **data-mapper-dotnet** allows developers to map data from one schema to another by defining a mapping file that can be managed by non-technical staff.
 
+![Data Mapper](./docs/assets/data-mapper.svg)
+
 ## Idea
 
 The data mapper can be used as part of an interface between two IT systems.
 
-![System Context](./docs/l1-system-context.dio.svg)
+![System Context](./docs/assets/l1-system-context.dio.svg)
 
 The developer can focus on implementing the interface while the project manager can define the mapping in a json file.
 This way the interface can easily be adjusted if by a project manager without the need of a developer.
