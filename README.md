@@ -31,4 +31,4 @@ Check the [Mappiong Docs](./docs/Mapping.md) to see how the mapping file works a
 
 ## Contribute
 
-Read the [contribution guide](./docs/CONTRIBUTING.md) to see how you can contribute.
+Visit the [contribution page](https://github.com/buhlergroup/data-mapper-dotnet/contribute) to see how you can contribute.
