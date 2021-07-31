@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
     <PackageId>Buhlergroup.DataMapper</PackageId>
-    <Version>0.1.1</Version>
+    <Version>0.2.0</Version>
     <Authors>Felix Saaro</Authors>
     <Company>Buhler</Company>
     <Description>The data mapper allows developers to map data from one schema to another by defining a mapping file that can be managed by non-technical staff.</Description>

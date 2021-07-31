@@ -22,3 +22,4 @@ jobs:
           PROJECT_FILE_PATH: source/src/data-mapper/data-mapper.csproj
           PACKAGE_NAME: Buhlergroup.DataMapper
           NUGET_KEY: ${{secrets.NUGET_API_KEY}}
+          TAG_COMMIT: false
