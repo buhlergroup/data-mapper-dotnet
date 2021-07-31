@@ -1,6 +1,7 @@
 name: CD - Publish NuGet Package
 
 on:
+  workflow_dispatch:
   release:
     types: [published]
 
@@ -19,5 +20,5 @@ jobs:
         uses: rohith/publish-nuget@v2
         with:
           PROJECT_FILE_PATH: source/src/data-mapper/data-mapper.csproj
-          PACKAGE_NAME: Buhler.DataMapper
+          PACKAGE_NAME: BuhlerGroup.DataMapper
           NUGET_KEY: ${{secrets.NUGET_API_KEY}}
