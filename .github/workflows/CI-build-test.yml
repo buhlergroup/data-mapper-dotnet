@@ -1,4 +1,4 @@
-name: CI - Sonar Cloud
+name: CI - Build & Test
 on:
   push:
     branches:
