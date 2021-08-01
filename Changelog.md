@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [v0.2.1]
+
 - Fix dependency injection issue for type `System.IO.Abstractions.IFileSystem`
 
 ## [v0.2.0]
