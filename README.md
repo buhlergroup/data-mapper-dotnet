@@ -24,6 +24,23 @@ There are two parts to the library to use it. One is the technical implementatio
 
 ### Library
 
+1. Install the [package via NuGet](https://www.nuget.org/packages/Buhlergroup.DataMapper/)
+2. If you're using dependency injection you can use the `AddDataMapper` extension method.
+
+```csharp
+using Buhler.DataMapper;
+...
+var host = new HostBuilder()
+    .ConfigureServices(s =>
+    {
+        ...
+        s.AddDataMapper();
+    })
+    .Build();
+```
+
+3. Now an instance of `IMapper` can be injected into any class.
+
 Check the [Development Docs](./docs/Development.md) to get an overview of how the library can be used and how it's structured.
 
 ### Mapping
