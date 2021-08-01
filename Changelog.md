@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Fix dependency injection issue for type `System.IO.Abstractions.IFileSystem`
+
 ## [v0.2.0]
 
 - Add mapping data according to `field-mapping.json` definition

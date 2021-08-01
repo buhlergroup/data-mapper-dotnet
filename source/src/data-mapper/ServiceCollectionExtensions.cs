@@ -1,5 +1,6 @@
 namespace Buhler.DataMapper
 {
+    using System.IO.Abstractions;
     using Buhler.DataMapper.Helper;
     using Buhler.DataMapper.Validation;
     using Microsoft.Extensions.DependencyInjection;
@@ -11,6 +12,7 @@ namespace Buhler.DataMapper
             services.AddScoped<IMapper, Mapper>();
             services.AddScoped<IStreamHelper, StreamHelper>();
             services.AddScoped<IFieldValidation, FieldValidation>();
+            services.AddScoped<IFileSystem, FileSystem>();
         }
     }
 }
