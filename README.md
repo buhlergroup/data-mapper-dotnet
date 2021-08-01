@@ -1,5 +1,6 @@
 # Data Mapper for dotnet
 
+[![Nuget](https://img.shields.io/nuget/v/Buhlergroup.DataMapper?color=blue)](https://www.nuget.org/packages/Buhlergroup.DataMapper/)
 [![CI - Build & Test](https://github.com/buhlergroup/data-mapper-dotnet/actions/workflows/CI-build-test.yml/badge.svg)](https://github.com/buhlergroup/data-mapper-dotnet/actions/workflows/CI-build-test.yml)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=buhlergroup_data-mapper-dotnet&metric=alert_status)](https://sonarcloud.io/dashboard?id=buhlergroup_data-mapper-dotnet)
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=buhlergroup_data-mapper-dotnet&metric=coverage)](https://sonarcloud.io/dashboard?id=buhlergroup_data-mapper-dotnet)
