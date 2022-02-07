@@ -6,7 +6,9 @@ As of now the following versioins are supported
 
 | Version | Supported          |
 | ------- | ------------------ |
-|Pre-release 0.1.x|:white_check_mark:|
+|0.3.x|:white_check_mark:|
+|0.2.x|:white_check_mark:|
+|Pre-release 0.1.x|:x:|
 
 ## Reporting a Vulnerability
 
