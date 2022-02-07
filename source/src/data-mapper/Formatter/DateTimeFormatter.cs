@@ -14,7 +14,7 @@ namespace Buhlergroup.DataMapper.Formatter
                 return value.ToString();
             }
 
-            return DateTime.ParseExact(value.ToString(), mapping.InFormat, CultureInfo.InvariantCulture, DateTimeStyles.None).ToString(mapping.OutFormat);
+            return DateTime.ParseExact(value.ToString(), mapping.InFormat, CultureInfo.InvariantCulture, DateTimeStyles.None).ToString(mapping.OutFormat, CultureInfo.InvariantCulture);
         }
 
         public static bool CanFormat(FieldMappingModel mapping, object value)
