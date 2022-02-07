@@ -282,6 +282,72 @@ namespace Buhlergroup.DataMapper.Test
         }
 
         [TestMethod]
+        public void GetFieldValue_TypeDate_WithoutFormat()
+        {
+            var jsonObject = new JObject
+            {
+                { "date", "2021-02-07" }
+            };
+            var map = new FieldMappingModel
+            {
+                SourceFields = new List<string> { "date" },
+                TargetField = "Start Date",
+                Type = FieldType.DATE
+            };
+
+            var mapper = new Mapper(_mockStreamHelper.Object, new FieldValidation());
+            var result = mapper.GetFieldValue(jsonObject, map);
+
+            result.Should().NotBeNull();
+            result.Should().Be("2021-02-07");
+        }
+
+        [TestMethod]
+        public void GetFieldValue_TypeDate_WithInFormat()
+        {
+            var jsonObject = new JObject
+            {
+                { "date", "20210207105203" }
+            };
+            var map = new FieldMappingModel
+            {
+                SourceFields = new List<string> { "date" },
+                TargetField = "Start Date",
+                Type = FieldType.DATE,
+                InFormat = "yyyyMMddHHmmss",
+                OutFormat = "yyyy-MM-dd"
+            };
+
+            var mapper = new Mapper(_mockStreamHelper.Object, new FieldValidation());
+            var result = mapper.GetFieldValue(jsonObject, map);
+
+            result.Should().NotBeNull();
+            result.Should().Be("2021-02-07");
+        }
+
+        [TestMethod]
+        public void GetFieldValue_TypeDate_WithInFormat_WithoutOutFormat()
+        {
+            var jsonObject = new JObject
+            {
+                { "date", "20210207105203" }
+            };
+            var map = new FieldMappingModel
+            {
+                SourceFields = new List<string> { "date" },
+                TargetField = "Start Date",
+                Type = FieldType.DATE,
+                InFormat = "yyyyMMddHHmmss"
+            };
+
+            var mapper = new Mapper(_mockStreamHelper.Object, new FieldValidation());
+            var result = mapper.GetFieldValue(jsonObject, map);
+
+            result.Should().NotBeNull();
+            result.Should().Be("02/07/2021 10:52:03");
+        }
+
+        [TestMethod]
         public void GetFieldValue_TypeDefault()
         {
             var jsonObject = new JObject

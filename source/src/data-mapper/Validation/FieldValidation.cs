@@ -2,6 +2,7 @@
 {
     using System;
     using System.Linq;
+    using Buhlergroup.DataMapper.Formatter;
     using Buhlergroup.DataMapper.Model;
 
     public class FieldValidation : IFieldValidation
@@ -20,7 +21,7 @@
 
             return mapping.Type switch
             {
-                FieldType.DATE => DateTime.TryParse(field.ToString(), out _),
+                FieldType.DATE => DateTimeFormatter.CanFormat(mapping, field),
                 FieldType.NUMBER => float.TryParse(field.ToString(), out _),
                 FieldType.TEXT => true,
                 FieldType.SELECT => ValidateSelect(mapping, field),

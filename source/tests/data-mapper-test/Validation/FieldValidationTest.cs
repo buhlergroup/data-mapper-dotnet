@@ -44,6 +44,22 @@ namespace Buhlergroup.DataMapper.Validation.Test
         }
 
         [TestMethod]
+        public void ValidateField_TypeDate_ValidDateFormatted_WithFormat() {
+            var validation = new FieldValidation();
+            var result = validation.ValidateField(new FieldMappingModel { Type = FieldType.DATE, InFormat = "yyyyMMddHHmmss" }, "20200102105203");
+
+            result.Should().BeTrue();
+        }
+
+        [TestMethod]
+        public void ValidateField_TypeDate_ValidDateFormatted_WithoutFormat() {
+            var validation = new FieldValidation();
+            var result = validation.ValidateField(new FieldMappingModel { Type = FieldType.DATE }, "20200102105203");
+
+            result.Should().BeFalse();
+        }
+
+        [TestMethod]
         public void ValidateField_TypeDate_InValidDate() {
             var validation = new FieldValidation();
             var result = validation.ValidateField(new FieldMappingModel { Type = FieldType.DATE }, "2020-01-00");
