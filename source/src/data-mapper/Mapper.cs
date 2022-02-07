@@ -5,6 +5,7 @@
     using System.IO;
     using System.Linq;
     using Buhlergroup.DataMapper.Condition;
+    using Buhlergroup.DataMapper.Formatter;
     using Buhlergroup.DataMapper.Helper;
     using Buhlergroup.DataMapper.Model;
     using Buhlergroup.DataMapper.Operation;
@@ -66,6 +67,7 @@
             return map.Type switch
             {
                 FieldType.SELECT => map.SelectValues.Where(x => x.Origin == value.ToString()).Select(x => x.Destination).First(),
+                FieldType.DATE => DateTimeFormatter.Format(map, value),
                 FieldType.NUMBER => float.Parse(value.ToString()),
                 _ => value.ToString(),
             };

@@ -23,6 +23,12 @@
         [JsonConverter(typeof(StringEnumConverter))]
         public FieldType Type { get; set; }
 
+        [JsonProperty("in-format")]
+        public string InFormat { get; set; }
+
+        [JsonProperty("out-format")]
+        public string OutFormat { get; set; }
+
         [JsonProperty("select-values")]
         public IEnumerable<SelectFieldMappingModel> SelectValues { get; set; }
 
