@@ -1,10 +1,10 @@
-namespace Buhler.DataMapper.Condition.Test
+namespace Buhlergroup.DataMapper.Condition.Test
 {
     using System;
     using FluentAssertions;
     using Microsoft.VisualStudio.TestTools.UnitTesting;
     using Newtonsoft.Json.Linq;
-    using Buhler.DataMapper.Model;
+    using Buhlergroup.DataMapper.Model;
 
     [TestClass]
     public class ValueEqualsConditionTest

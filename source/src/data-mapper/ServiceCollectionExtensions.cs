@@ -1,8 +1,8 @@
-namespace Buhler.DataMapper
+namespace Buhlergroup.DataMapper
 {
     using System.IO.Abstractions;
-    using Buhler.DataMapper.Helper;
-    using Buhler.DataMapper.Validation;
+    using Buhlergroup.DataMapper.Helper;
+    using Buhlergroup.DataMapper.Validation;
     using Microsoft.Extensions.DependencyInjection;
 
     public static class ServiceCollectionExtensions

@@ -1,4 +1,4 @@
-namespace Buhler.DataMapper.Helper
+namespace Buhlergroup.DataMapper.Helper
 {
     using System.IO;
     using System.Threading.Tasks;

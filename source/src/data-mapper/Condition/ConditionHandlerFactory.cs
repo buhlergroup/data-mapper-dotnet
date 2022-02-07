@@ -1,6 +1,6 @@
-namespace Buhler.DataMapper.Condition
+namespace Buhlergroup.DataMapper.Condition
 {
-    using Buhler.DataMapper.Model;
+    using Buhlergroup.DataMapper.Model;
     public static class ConditionHandlerFactory
     {
         public static ICondition GetConditionHandler(ConditionType type) => type switch

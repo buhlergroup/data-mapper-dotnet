@@ -1,8 +1,8 @@
-﻿namespace Buhler.DataMapper.Validation
+﻿namespace Buhlergroup.DataMapper.Validation
 {
     using System;
     using System.Linq;
-    using Buhler.DataMapper.Model;
+    using Buhlergroup.DataMapper.Model;
 
     public class FieldValidation : IFieldValidation
     {

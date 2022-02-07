@@ -1,6 +1,6 @@
-﻿namespace Buhler.DataMapper.Validation
+﻿namespace Buhlergroup.DataMapper.Validation
 {
-    using Buhler.DataMapper.Model;
+    using Buhlergroup.DataMapper.Model;
 
     public interface IFieldValidation
     {

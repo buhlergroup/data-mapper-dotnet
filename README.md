@@ -28,7 +28,7 @@ There are two parts to the library to use it. One is the technical implementatio
 2. If you're using dependency injection you can use the `AddDataMapper` extension method.
 
 ```csharp
-using Buhler.DataMapper;
+using Buhlergroup.DataMapper;
 ...
 var host = new HostBuilder()
     .ConfigureServices(s =>

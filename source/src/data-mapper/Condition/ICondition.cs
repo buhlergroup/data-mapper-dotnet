@@ -1,6 +1,6 @@
-namespace Buhler.DataMapper.Condition
+namespace Buhlergroup.DataMapper.Condition
 {
-    using Buhler.DataMapper.Model;
+    using Buhlergroup.DataMapper.Model;
     using Newtonsoft.Json.Linq;
 
     public interface ICondition

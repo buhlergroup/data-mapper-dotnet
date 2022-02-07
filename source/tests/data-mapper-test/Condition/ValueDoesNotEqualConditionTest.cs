@@ -1,7 +1,7 @@
-namespace Buhler.DataMapper.Condition.Test
+namespace Buhlergroup.DataMapper.Condition.Test
 {
     using System;
-    using Buhler.DataMapper.Model;
+    using Buhlergroup.DataMapper.Model;
     using FluentAssertions;
     using Microsoft.VisualStudio.TestTools.UnitTesting;
     using Newtonsoft.Json.Linq;

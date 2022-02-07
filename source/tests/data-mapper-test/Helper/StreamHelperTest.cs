@@ -1,4 +1,4 @@
-namespace Buhler.DataMapper.Helper.Test
+namespace Buhlergroup.DataMapper.Helper.Test
 {
     using System;
     using System.Collections.Generic;

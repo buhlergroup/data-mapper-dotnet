@@ -1,9 +1,9 @@
-namespace Buhler.DataMapper.Validation.Test
+namespace Buhlergroup.DataMapper.Validation.Test
 {
     using System;
     using System.Collections.Generic;
-    using Buhler.DataMapper.Model;
-    using Buhler.DataMapper.Validation;
+    using Buhlergroup.DataMapper.Model;
+    using Buhlergroup.DataMapper.Validation;
     using FluentAssertions;
     using Microsoft.VisualStudio.TestTools.UnitTesting;
     using Moq;

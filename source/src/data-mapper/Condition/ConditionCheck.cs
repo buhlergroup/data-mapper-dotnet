@@ -1,7 +1,7 @@
-namespace Buhler.DataMapper.Condition
+namespace Buhlergroup.DataMapper.Condition
 {
     using System.Collections.Generic;
-    using Buhler.DataMapper.Model;
+    using Buhlergroup.DataMapper.Model;
     using Newtonsoft.Json.Linq;
 
     public static class ConditionCheck

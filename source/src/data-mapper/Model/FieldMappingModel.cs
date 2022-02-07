@@ -1,4 +1,4 @@
-﻿namespace Buhler.DataMapper.Model
+﻿namespace Buhlergroup.DataMapper.Model
 {
     using System.Collections.Generic;
     using Newtonsoft.Json;

@@ -1,7 +1,7 @@
-﻿namespace Buhler.DataMapper
+﻿namespace Buhlergroup.DataMapper
 {
     using System.Collections.Generic;
-    using Buhler.DataMapper.Model;
+    using Buhlergroup.DataMapper.Model;
     using Newtonsoft.Json.Linq;
 
     public interface IMapper

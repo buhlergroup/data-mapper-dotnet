@@ -1,6 +1,6 @@
-namespace Buhler.DataMapper.Operation.Test
+namespace Buhlergroup.DataMapper.Operation.Test
 {
-    using Buhler.DataMapper.Model;
+    using Buhlergroup.DataMapper.Model;
     using FluentAssertions;
     using Microsoft.VisualStudio.TestTools.UnitTesting;
 

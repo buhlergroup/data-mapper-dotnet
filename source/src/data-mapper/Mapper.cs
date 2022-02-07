@@ -1,14 +1,14 @@
-﻿namespace Buhler.DataMapper
+﻿namespace Buhlergroup.DataMapper
 {
     using System;
     using System.Collections.Generic;
     using System.IO;
     using System.Linq;
-    using Buhler.DataMapper.Condition;
-    using Buhler.DataMapper.Helper;
-    using Buhler.DataMapper.Model;
-    using Buhler.DataMapper.Operation;
-    using Buhler.DataMapper.Validation;
+    using Buhlergroup.DataMapper.Condition;
+    using Buhlergroup.DataMapper.Helper;
+    using Buhlergroup.DataMapper.Model;
+    using Buhlergroup.DataMapper.Operation;
+    using Buhlergroup.DataMapper.Validation;
     using Newtonsoft.Json;
     using Newtonsoft.Json.Linq;
 

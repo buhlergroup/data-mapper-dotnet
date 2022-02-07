@@ -1,6 +1,6 @@
-﻿namespace Buhler.DataMapper.Operation
+﻿namespace Buhlergroup.DataMapper.Operation
 {
-    using Buhler.DataMapper.Model;
+    using Buhlergroup.DataMapper.Model;
 
     public static class OperationFactory
     {

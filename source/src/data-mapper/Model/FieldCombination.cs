@@ -1,4 +1,4 @@
-﻿namespace Buhler.DataMapper.Model
+﻿namespace Buhlergroup.DataMapper.Model
 {
     public enum FieldCombination
     {

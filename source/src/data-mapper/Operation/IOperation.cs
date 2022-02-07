@@ -1,7 +1,7 @@
-﻿namespace Buhler.DataMapper.Operation
+﻿namespace Buhlergroup.DataMapper.Operation
 {
-    using Buhler.DataMapper.Model;
-    using Buhler.DataMapper.Validation;
+    using Buhlergroup.DataMapper.Model;
+    using Buhlergroup.DataMapper.Validation;
     using Newtonsoft.Json.Linq;
 
     public interface IOperation
