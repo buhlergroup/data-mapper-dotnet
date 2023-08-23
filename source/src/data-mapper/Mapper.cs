@@ -58,7 +58,7 @@
                 return null;
             }
 
-            var value = model.Value<object>(map.SourceFields.First());
+            var value = model.SelectToken(map.SourceFields.First());
             if (!_validationHelper.ValidateField(map, value))
             {
                 return null;
