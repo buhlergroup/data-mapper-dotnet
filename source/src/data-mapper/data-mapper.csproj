@@ -11,6 +11,7 @@
     <PackageTags>data,mapping,transform,schema</PackageTags>
     <RepositoryUrl>https://github.com/buhlergroup/data-mapper-dotnet</RepositoryUrl>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+      <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
 
   <ItemGroup>
