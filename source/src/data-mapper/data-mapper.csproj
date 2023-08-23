@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
-    <PackageId>Buhlergroup.DataMapper</PackageId>
+    <PackageId>Buhler.DataMapper</PackageId>
     <Version>0.4.0</Version>
     <Authors>Felix Saaro</Authors>
     <Company>Buhler</Company>
