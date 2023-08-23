@@ -45,7 +45,7 @@ Check the [Development Docs](./docs/Development.md) to get an overview of how th
 
 ### Mapping
 
-Check the [Mappiong Docs](./docs/Mapping.md) to see how the mapping file works and what it can do for you.
+Check the [Mapping Docs](./docs/Mapping.md) to see how the mapping file works and what it can do for you.
 
 ## Contribute
 

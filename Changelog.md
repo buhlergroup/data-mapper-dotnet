@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [v0.4.0]
+
+- Add `VALUE_MATCHES` condition
+- Use `SelectToken` to find matching source field
+
 ## [v0.3.0]
 
 - Add fields `in-format` and `out-format` for date formatting

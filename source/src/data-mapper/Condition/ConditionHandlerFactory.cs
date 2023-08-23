@@ -7,6 +7,7 @@ namespace Buhlergroup.DataMapper.Condition
         {
             ConditionType.VALUE_EXISTS => new ValueExistsCondition(),
             ConditionType.VALUE_EQUALS => new ValueEqualsCondition(),
+            ConditionType.VALUE_MATCHES => new ValueMatchesCondition(),
             ConditionType.VALUE_DOES_NOT_EQUAL => new ValueDoesNotEqualCondition(),
             _ => new DefaultCondition(),
         };

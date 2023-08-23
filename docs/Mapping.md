@@ -116,9 +116,23 @@ The following types are supported as of now:
 
 A condition contains the following information:
 
-| Field    | Values                                        | Description                                         |
-| -------- | --------------------------------------------- | --------------------------------------------------- |
-| `type`   | `VALUE_EQUALS`<br>`VALUE_EXISTS`<br>`DEFAULT` | Type of the condition to check.                     |
-| `field`  |                                               | Field to check the condition on from source system. |
-| `equals` | Regex                                         | Only required when the type `VALUE_EQUALS` is set.  |
-| `value`  |                                               | The value to set in the field of the target system. |
+| Field    | Values                                                           | Description                                                           |
+| -------- | ---------------------------------------------------------------- | --------------------------------------------------------------------- |
+| `type`   | `VALUE_EQUALS`<br>`VALUE_MATCHES`<br>`VALUE_EXISTS`<br>`DEFAULT` | Type of the condition to check.                                       |
+| `field`  |                                                                  | Field to check the condition on from source system.                   |
+| `equals` |                                                                  | Only required when the type `VALUE_EQUALS` or `VALUE_MATCHES` is set. |
+| `value`  | `<value>`<br>`DO_NOT_OVERRIDE`                                   | The value to set in the field of the target system.                   |
+
+### Type
+
+The following condition types exist:
+
+- `VALUE_EQUALS` - Condition is applied if the value of the filed matches the value specified in the `equals` field (Case insensitive).
+- `VALUE_MATCHES` - Condition is applied if the value of the filed matches the regex specified in the `equals` field.
+- `VALUE_EXISTS` - Condition is applied if a value exists in the field.
+- `DEFAULT` - Condition is always applied
+
+### Value
+
+- `<value>` - Writes the value in the field if the condition applies
+- `DO_NOT_OVERRIDE` - Prevents the value from being updated if the condition applies

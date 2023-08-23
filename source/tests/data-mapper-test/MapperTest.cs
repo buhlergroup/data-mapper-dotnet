@@ -84,6 +84,119 @@ namespace Buhlergroup.DataMapper.Test
         }
 
         [TestMethod]
+        public void MapToDictionary_MapDeepObjectCorrectly()
+        {
+            var jsonObject = new JObject
+            {
+                { "nr", "413143" },
+                { "dsm", 
+                    new JObject()
+                    {
+                        { "descriptionShrt", "DS01" },
+                        { "description", "Gateway Ordered" },
+                    }
+                    
+                }
+            };
+
+            var mapping = new List<FieldMappingModel> {
+                new FieldMappingModel {
+                    SourceFields = new List<string> {"nr"},
+                    TargetField = "ID"
+                },
+                new FieldMappingModel {
+                    SourceFields = new List<string> {"dsm.description"},
+                    TargetField = "Title"
+                }
+            };
+
+            var mapper = new Mapper(_mockStreamHelper.Object, new FieldValidation());
+
+            var result = mapper.MapToDictionary(jsonObject, mapping);
+
+            result.Should().HaveCount(2);
+            result["ID"].Should().Be("413143");
+            result["Title"].Should().Be("Gateway Ordered");
+        }
+
+        [TestMethod]
+        public void MapToDictionary_MapDeepArrayCorrectly()
+        {
+            var jsonObject = new JObject
+            {
+                { "nr", "413143" },
+                { "dsm", new JArray()
+                {
+                    new JObject()
+                    {
+                        { "descriptionShrt", "DS01" },
+                        { "description", "Gateway Ordered" },
+                    }
+                } }
+            };
+
+            var mapping = new List<FieldMappingModel> {
+                new FieldMappingModel {
+                    SourceFields = new List<string> {"nr"},
+                    TargetField = "ID"
+                },
+                new FieldMappingModel {
+                    SourceFields = new List<string> {"dsm[0].description"},
+                    TargetField = "Title"
+                }
+            };
+
+            var mapper = new Mapper(_mockStreamHelper.Object, new FieldValidation());
+
+            var result = mapper.MapToDictionary(jsonObject, mapping);
+
+            result.Should().HaveCount(2);
+            result["ID"].Should().Be("413143");
+            result["Title"].Should().Be("Gateway Ordered");
+        }
+
+        [TestMethod]
+        public void MapToDictionary_QueryArrayCorrectly()
+        {
+            var jsonObject = new JObject
+            {
+                { "nr", "413143" },
+                { "dsm", new JArray()
+                {
+                    new JObject()
+                    {
+                        { "descriptionShrt", "DS01" },
+                        { "description", "Gateway Ordered" },
+                    },
+                    new JObject()
+                    {
+                        { "descriptionShrt", "DS02" },
+                        { "description", "IT requirements sent to customer" },
+                    }
+                } }
+            };
+
+            var mapping = new List<FieldMappingModel> {
+                new FieldMappingModel {
+                    SourceFields = new List<string> {"nr"},
+                    TargetField = "ID"
+                },
+                new FieldMappingModel {
+                    SourceFields = new List<string> {"dsm[?(@.descriptionShrt == 'DS02')].description"},
+                    TargetField = "Title"
+                }
+            };
+
+            var mapper = new Mapper(_mockStreamHelper.Object, new FieldValidation());
+
+            var result = mapper.MapToDictionary(jsonObject, mapping);
+
+            result.Should().HaveCount(2);
+            result["ID"].Should().Be("413143");
+            result["Title"].Should().Be("IT requirements sent to customer");
+        }
+
+        [TestMethod]
         public void GetFieldValue_EmptyModel()
         {
             var map = new FieldMappingModel();
